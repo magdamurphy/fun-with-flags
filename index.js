@@ -50,3 +50,8 @@ const allCountries = fetch('https://restcountries.eu/rest/v2/all')
         addRowToTable(data.name, data.population.toLocaleString('en-UK'), data.currencies.code)});
     });
 
+const tableHeader = document.querySelectorAll("th");
+
+tableHeader[1].addEventListener("click", function() {
+          addSortedOrFiltered(sortAll)}); 
+
