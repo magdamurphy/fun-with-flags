@@ -53,10 +53,9 @@ const allCountries = fetch('https://restcountries.eu/rest/v2/all')
 const tableHeader = document.querySelectorAll("th");
 
 function sortAll() {
-  return(data.slice().sort(function(a, b) {
+  return(data.name.slice().sort(function(a, b) {
     return a.allTypes - b.allTypes}));
   }
 
-tableHeader.addEventListener("click", function() {
-          addSortedOrFiltered(sortAll)}); 
+tableHeader.addEventListener("click",sortAll()); 
 
