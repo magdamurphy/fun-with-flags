@@ -47,6 +47,6 @@ const allCountries = fetch('https://restcountries.eu/rest/v2/all')
     })
     .then(function (json) {
       json.map(function(data) {
-        addRowToTable(data.name, data.population.toLocaleString('en-UK'), createImg(data))});
+        addRowToTable(data.name, data.population.toLocaleString('en-UK'), data.currencies.code)});
     });
 
