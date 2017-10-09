@@ -1,0 +1,35 @@
+body {
+  font-family: 'Helvetica Neue, Helvetica, Arial', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2rem;
+  letter-spacing: 0.01rem;
+  color: #38383c;
+  background-color: #f0eff9;
+}
+
+
+table {
+  margin: 40px auto;
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+  border: #c6c6cc 2px solid;
+}
+
+td,
+th {
+  padding: 6px 16px;
+  vertical-align: top;
+  transition(all .3s ease);
+  border-bottom: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  transition: all 90ms ease-out;
+}
+
+img {
+  width: 100px;
+  height: 50px;
+}
