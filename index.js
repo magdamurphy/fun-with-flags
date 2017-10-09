@@ -57,6 +57,6 @@ function sortAll() {
     return a.allTypes - b.allTypes}));
   }
 
-tableHeader[1].addEventListener("click", function() {
+tableHeader.addEventListener("click", function() {
           addSortedOrFiltered(sortAll)}); 
 
